@@ -11,5 +11,9 @@
   "dependencies": {
     "botbuilder": "^3.7.0",
     "restify": "^4.3.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js" // tells the web service where the start script is
   }
 }
