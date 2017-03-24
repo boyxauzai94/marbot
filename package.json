@@ -2,18 +2,14 @@
   "name": "bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js" // tells the web service where the start script is
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "botbuilder": "^3.7.0",
     "restify": "^4.3.0"
-  },
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js" // tells the web service where the start script is
   }
 }
